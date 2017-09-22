@@ -51,10 +51,10 @@
 | iPad Pro (12.9‑inch, LTE)                   | iPad6,8    | 2015‑11‑11 | Lightning (USB 3) | 11+      | arm64  | 2732x2048 | 1366x1024 | @2x | 12.9   |
 | iPad Pro (9.7‑inch, Wi‑Fi)                  | iPad6,3    | 2016‑03‑24 | Lightning         | 11+      | arm64  | 2048x1536 | 1024x768  | @2x | 9.7    |
 | iPad Pro (9.7‑inch, LTE)                    | iPad6,4    | 2016‑03‑24 | Lightning         | 11+      | arm64  | 2048x1536 | 1024x768  | @2x | 9.7    |
-| iPad Pro (12.9‑inch, 2nd generation, Wi‑Fi) | iPad?,?    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2732x2048 | 1366x1024 | @2x | 12.9   |
-| iPad Pro (12.9‑inch, 2nd generation, LTE)   | iPad?,?    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2732x2048 | 1366x1024 | @2x | 12.9   |
-| iPad Pro (10.5‑inch, Wi‑Fi)                 | iPad?,?    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2224x1668 | 1112x834  | @2x | 10.5   |
-| iPad Pro (10.5‑inch, LTE)                   | iPad?,?    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2224x1668 | 1112x834  | @2x | 10.5   |
+| iPad Pro (12.9‑inch, 2nd generation, Wi‑Fi) | iPad7,1    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2732x2048 | 1366x1024 | @2x | 12.9   |
+| iPad Pro (12.9‑inch, 2nd generation, LTE)   | iPad7,2    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2732x2048 | 1366x1024 | @2x | 12.9   |
+| iPad Pro (10.5‑inch, Wi‑Fi)                 | iPad7,3    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2224x1668 | 1112x834  | @2x | 10.5   |
+| iPad Pro (10.5‑inch, LTE)                   | iPad7,4    | 2017‑06‑13 | Lightning (USB 3) | 11+      | arm64  | 2224x1668 | 1112x834  | @2x | 10.5   |
 | iPad mini (Wi‑Fi)                           | iPad2,5    | 2012‑11‑02 | Lightning         | 9        | armv7  | 1024x768  | 1024x768  | @1x | 7.9    |
 | iPad mini (GSM/LTE)                         | iPad2,6    | 2012‑11‑16 | Lightning         | 9        | armv7  | 1024x768  | 1024x768  | @1x | 7.9    |
 | iPad mini (CDMA/LTE)                        | iPad2,7    | 2012‑11‑16 | Lightning         | 9        | armv7  | 1024x768  | 1024x768  | @1x | 7.9    |
@@ -147,10 +147,10 @@
     if ([platform isEqualToString:@"iPad6,8"])      return @"iPad Pro (12.9‑inch, LTE)";
     if ([platform isEqualToString:@"iPad6,3"])      return @"iPad Pro (9.7‑inch, Wi‑Fi)";
     if ([platform isEqualToString:@"iPad6,4"])      return @"iPad Pro (9.7‑inch, LTE)";
-    if ([platform isEqualToString:@"iPad?,?"])      return @"iPad Pro (12.9‑inch, 2nd generation, Wi‑Fi)";
-    if ([platform isEqualToString:@"iPad?,?"])      return @"iPad Pro (12.9‑inch, 2nd generation, LTE)";
-    if ([platform isEqualToString:@"iPad?,?"])      return @"iPad Pro (10.5‑inch, Wi‑Fi)";
-    if ([platform isEqualToString:@"iPad?,?"])      return @"iPad Pro (10.5‑inch, LTE)";
+    if ([platform isEqualToString:@"iPad7,1"])      return @"iPad Pro (12.9‑inch, 2nd generation, Wi‑Fi)";
+    if ([platform isEqualToString:@"iPad7,2"])      return @"iPad Pro (12.9‑inch, 2nd generation, LTE)";
+    if ([platform isEqualToString:@"iPad7,3"])      return @"iPad Pro (10.5‑inch, Wi‑Fi)";
+    if ([platform isEqualToString:@"iPad7,4"])      return @"iPad Pro (10.5‑inch, LTE)";
     if ([platform isEqualToString:@"iPad2,5"])      return @"iPad mini (Wi‑Fi)";
     if ([platform isEqualToString:@"iPad2,6"])      return @"iPad mini (GSM/LTE)";
     if ([platform isEqualToString:@"iPad2,7"])      return @"iPad mini (CDMA/LTE)";
